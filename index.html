@@ -20,14 +20,21 @@
   </header>
 
   <!--City Search-->
-
   <nav class="navbar">
     <div class="container-fluid mb-2 p-4">
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="City Search" aria-label="Search">
-        <button class="btn" type="submit">🔎</button>
+        <input type= "text" class="form-control me-2" id="city-search" placeholder="City Search" aria-label="Search">
+
+        <!--Search Button-->
+        <button class="btn" id= "search-btn" type="submit">🔎</button>
       </form>
     </div>
+
+    <!--Clear History Button-->
+    <div class="container-fluid mb-2 p-4">
+      <button class="btn" id="clear-history">Clear History</button>
+    </div>
+
   </nav>
 
   <!--Today's Forecast Heading-->
@@ -120,7 +127,7 @@
     </div>
   </div>
 
-<!--jQuery-->
+  <!--jQuery-->
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/javascript.js"></script>
