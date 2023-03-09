@@ -16,7 +16,7 @@
 
 <body>
   <header class="container-fluid mb-3 p-5">
-      <h1>Weather Dashboard ⚡</h1>
+    <h1>Weather Dashboard ⚡</h1>
   </header>
 
   <!--City Search-->
@@ -30,12 +30,101 @@
     </div>
   </nav>
 
-  <!--Today's Forecast-->
+  <!--Today's Forecast Heading-->
   <h2>Today's Forecast</h2>
+  <hr>
 
-  
+  <!--Today's Forecast Card-->
+  <div class="todays-forecast-titles">
+
+    <!--Might need to remove city name and also add the icon feature here-->
+    <h3 id="city-name">City Name</h3>
+    <h3 class="todays-date" id="date">Date</h3>
+
+    <!--Temperature, Wind & Humidity Titles-->
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>Temperature</h4>
+        </div>
+        <div class="col">
+          <h4>Wind</h4>
+        </div>
+        <div class="col">
+          <h4>Humidity</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Today's Temperature, Wind & Humidity Values-->
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col">
+        <p class="temperature" id="todays-temperature">Temperature</p>
+      </div>
+      <div class="col">
+        <p class="wind" id="todays-wind">Wind</p>
+      </div>
+      <div class="col">
+        <p class="humidity" id="todays-humidity">Humidity</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+
   <!--5 Day Forecast-->
-  
+  <h2>This Week</h2>
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col" id="dayOne">
+        <p id="dateOne">Date</p>
+        <p id="imgOne">Icon</p>
+        <p id="tempOne">Temp</p>
+        <p id="windOne">Wind</p>
+        <p id="humidityOne">Humidity</p>
+      </div>
+
+      <div class="col" id="dayTwo">
+        <p id="dateTwo">Date</p>
+        <p id="imgTwo">Icon</p>
+        <p id="tempTwo">Temp</p>
+        <p id="windTwo">Wind</p>
+        <p id="humidityTwo">Humidity</p>
+      </div>
+
+      <div class="col" id="dayThree">
+        <p id="dateThree">Date</p>
+        <p id="imgThree">Icon</p>
+        <p id="tempThree">Temp</p>
+        <p id="windThree">Wind</p>
+        <p id="humidityThree">Humidity</p>
+      </div>
+
+      <div class="col" id="dayFour">
+        <p id="dateFour">Date</p>
+        <p id="imgFour">Icon</p>
+        <p id="tempFour">Temp</p>
+        <p id="windFour">Wind</p>
+        <p id="humidityFour">Humidity</p>
+      </div>
+
+      <div class="col" id="dayFive">
+        <p id="dateFive">Date</p>
+        <p id="imgFive">Icon</p>
+        <p id="tempFive">Temp</p>
+        <p id="windFive">Wind</p>
+        <p id="humidityFive">Humidity</p>
+      </div>
+    </div>
+  </div>
+
+<!--jQuery-->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/javascript.js"></script>
+
 </body>
 
 </html>
