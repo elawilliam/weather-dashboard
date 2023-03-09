@@ -34,17 +34,22 @@ p {
 
 
 .btn {
-    background-color: #f3d943;
-    border: 4px solid #efa913;
+    background-color: #fbd73597;
+    border: 4px solid #f8ad0b;
     border-radius: 12px;
     transition-duration: 0.4s;
-    color: white;
+    color: rgb(8, 8, 8);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    font-family: 'Righteous', cursive;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control {
+    font-family: 'Righteous', cursive;
 }
 
 .btn:hover {
