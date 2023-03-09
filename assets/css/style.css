@@ -1,0 +1,38 @@
+header {
+    background-color: #d7dcdf55;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 400%;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    text-align: center;
+}
+
+.btn {
+    background-color: #f3d943;
+    border: 4px solid #efa913;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+    background-color: #efa913;
+}
+
+.form-control {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    font-size: 150%;
+}
+
