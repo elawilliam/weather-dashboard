@@ -13,6 +13,26 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 250%;
+    text-align: center;
+    color: #efa913;
+}
+
+h4 {
+    font-family: 'Righteous', cursive;
+    font-size: 175%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Righteous', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+
 .btn {
     background-color: #f3d943;
     border: 4px solid #efa913;
@@ -36,3 +56,6 @@ h2 {
     font-size: 150%;
 }
 
+/* .todays-forecast {
+    hidden
+} */
