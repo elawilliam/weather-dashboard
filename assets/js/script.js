@@ -126,8 +126,6 @@ function addToList(c) {
     $(".city-list").append(listEl);
 }
 
-
-
 //Keeps the page from refreshing when you hit submit button//
 function showWeather(event) {
     event.preventDefault();
