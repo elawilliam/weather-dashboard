@@ -13,6 +13,11 @@ h2 {
     text-align: center;
 }
 
+ul {
+    font-family: 'Righteous', cursive;
+    font-size: 300%;
+}
+
 h3 {
     font-family: 'Righteous', cursive;
     font-size: 250%;
